@@ -533,6 +533,12 @@ h3 {
   font-weight: 300;
   margin: 24px 60px;
 }
+
+.flex-item.karma {
+  background-image: url('../images/karma.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
   
 .about_me > li {
   display: inline-block;
