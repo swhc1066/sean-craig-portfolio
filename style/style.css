@@ -534,10 +534,47 @@ h3 {
   margin: 24px 60px;
 }
 
-.flex-item.karma {
-  background-image: url('../images/karma.jpg');
+.karma {
+  background-image: url('https://dl.dropboxusercontent.com/s/bs6eyjkhcjryc4w/karma?dl=0');
   background-size:cover;
   background-repeat: no-repeat;
+  position: relative;
+  min-height: 400px;
+}
+
+.karma:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.ny_times {
+  background-image: url('https://dl.dropboxusercontent.com/s/yrue5v2eugiqnik/ny_times.jpg?dl=0');
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 400px;
+
+}
+
+.ny_times:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.karma > h2 {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: #fff
+}
+
+.ny_times > h2 {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: #000000;
+  background-color: #fff;
+  padding: 0 7px;
 }
   
 .about_me > li {
