@@ -429,42 +429,115 @@ th {
 h1 {
   color:white;
   text-align:center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Source Sans Pro', serif;
   margin-top: -.4em;
 }
 
 h3 {
-  color:#00CCFF;
-  padding-top: 1.5em;
-  font-weight: 300;
+  color:white;
+  padding-top: 2em;
+  font-weight: 100;
 }
 
 .masthead {
-  height:400px;
+  height:800px;
   background-image:url(https://dl.dropboxusercontent.com/s/ti17ns5i7f8rb22/header2.jpg?dl=0);
   background-size:cover;
   background-repeat: no-repeat;
-  padding:6em 0;
-  border-top:solid #fb4ee1 .5em;
+  border-top:solid #4EDAFB .5em;
   font-size: 38px;
+  margin: 8px 8px 0 8px;
 }
 
-.masthead-intro, masthead-heading {
+.masthead-intro {
   color:white;
   text-align:center;
-  font-family: 'Merriweather', serif;
-  font-size: 26px;
-  padding-top: 5em;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 100px;
+  padding-top: 2em;
+}
+
+.introduction {
+  display: flex;
+}
+
+.flex-container {
+  padding: 0 4px; 
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #DDE9EC;
+  width: 49.52%;
+  margin-top: 10px;
+  color: #4D4C4D;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.flex-item > h2 {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 24px 60px;
+}
+
+.flex-item > p {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 24px 60px;
 }
 
 .introduction-section, .location-section, .question-section {
   text-align:left;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  max-width: 38em;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
+  padding-left:3em;
+  padding-right: 3em;
+  display: inline-block;
+}
+
+.portfolio {
+  text-align:left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  width: 99%;
+  height: 200px;
+  background: #B8E3ED;
+  margin-left: 9px;
+  margin-right: 9px;
+  margin-top: 9px;
+  display: inline-block;
+}
+
+.portfolio > h2 {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 24px 60px;
+}
+  
+.about_me > li {
+  display: inline-block;
+  width: 33%;
+  float: left;
 }
 
 footer {
@@ -473,9 +546,9 @@ footer {
   text-align:center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4em;
+  margin: 9px 8px 8px 8px;
   padding: 7em 0;
-  background-color:#594F49;
+  background-color:#9FBFC8;
 }
 
 ul {
@@ -491,7 +564,8 @@ ul {
 
 a {
   text-decoration: none;
-  color:#FED950;
+  color:#27353C;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 500px) {
